@@ -2,7 +2,7 @@ body {
     font-size: large;
     font-family: 'Courier New', Courier, monospace;
     color: blueviolet;
-    font-size: 50px;
+    font-size: 16px;
     margin:0;
     border: 0;
     text-align: justify;
@@ -13,4 +13,42 @@ body {
     width: 70%;
     align-items: center;
     margin: 0 auto;
+}
+.Header-container {
+
+}
+.header{
+    background-color: rgb(121, 25, 25) ;
+    display: flex;
+    height: 70px;
+    box-shadow: 1px 0px 13px 10px rgba(0,0,0,0.75);
+    margin: 0;
+    padding:0.5em ;
+    width: 72%;
+    margin: 0 auto;
+    border-radius: 10px;
+    align-items: center;
+
+}
+.logo-container{
+    display: flex;
+    text-align: right;
+    border: 2px solid grey;
+}
+.logo {
+    display: contents;
+    top: 0;
+
+}
+.logo-io{
+margin: 0;
+position: absolute;
+top: 0;
+}
+.header p {
+    color: white;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bold;
+
 }
